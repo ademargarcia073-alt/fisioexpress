@@ -20,6 +20,7 @@
 <header class="encabezado">
 	<div class="contenedor barra">
 		<a href="/" class="marca" onclick={() => (menuAbierto = false)}>
+			<img src="/logo-icono.png" alt="" class="marca-icono" />
 			<span class="marca-nombre">{site.nombre}</span>
 		</a>
 
@@ -75,6 +76,9 @@
 	}
 
 	.marca {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
 		font-family: var(--fuente-titulos);
 		font-weight: 700;
 		font-size: 1.2rem;
@@ -83,6 +87,11 @@
 
 	.marca:hover {
 		color: var(--turquesa);
+	}
+
+	.marca-icono {
+		height: 36px;
+		width: auto;
 	}
 
 	.nav {

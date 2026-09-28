@@ -1,5 +1,4 @@
 <script lang="ts">
-	import favicon from '$lib/assets/favicon.svg';
 	import '$lib/styles/global.css';
 	import Header from '$lib/components/Header.svelte';
 	import Footer from '$lib/components/Footer.svelte';
@@ -27,7 +26,6 @@
 </script>
 
 <svelte:head>
-	<link rel="icon" href={favicon} />
 	<meta name="theme-color" content="#0a1a1e" />
 	{@html `<script type="application/ld+json">${JSON.stringify(schemaNegocio)}<\/script>`}
 </svelte:head>

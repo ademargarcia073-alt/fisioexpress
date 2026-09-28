@@ -7,7 +7,10 @@
 <footer class="pie">
 	<div class="contenedor cuadricula">
 		<div>
-			<p class="pie-marca">{site.nombre}</p>
+			<div class="pie-marca-fila">
+				<img src="/logo-icono.png" alt="" class="pie-icono" />
+				<p class="pie-marca">{site.nombre}</p>
+			</div>
 			<p class="pie-texto">{site.profesional} · {site.titulo}</p>
 		</div>
 
@@ -49,12 +52,24 @@
 		padding-bottom: 2rem;
 	}
 
+	.pie-marca-fila {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+		margin-bottom: 0.4rem;
+	}
+
+	.pie-icono {
+		height: 32px;
+		width: auto;
+	}
+
 	.pie-marca {
 		font-family: var(--fuente-titulos);
 		font-weight: 700;
 		font-size: 1.1rem;
 		color: var(--texto);
-		margin-bottom: 0.4rem;
+		margin-bottom: 0;
 	}
 
 	.pie-titulo {
