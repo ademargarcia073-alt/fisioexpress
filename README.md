@@ -23,6 +23,8 @@ npm run dev -- --open
 4. **Dominio**: comprar `fisioexpresscla.com` y conectarlo en Cloudflare Pages. La URL
    base para SEO/canonical está en `src/lib/components/Seo.svelte` y en el schema de
    negocio local en `src/routes/+layout.svelte` — actualizar si el dominio final cambia.
+5. Confirmar con la Lic. Utrilla la autorización de publicar los testimonios (Giovana
+   Ramirez y el caso en video).
 
 Las fotos ya están integradas en [`static/photos/`](static/photos/) (ver ese directorio
 para la lista y su asignación).
