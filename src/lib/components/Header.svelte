@@ -7,6 +7,7 @@
 	const enlaces = [
 		{ href: '/', texto: 'Inicio' },
 		{ href: '/servicios', texto: 'Servicios' },
+		{ href: '/testimonios', texto: 'Testimonios' },
 		{ href: '/sobre-mi', texto: 'Sobre mí' },
 		{ href: '/contacto', texto: 'Contacto' }
 	];
