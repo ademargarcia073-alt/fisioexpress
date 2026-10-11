@@ -35,6 +35,9 @@
 
 	<div class="contenedor pie-copy">
 		<p>© {anio} {site.nombre}. Todos los derechos reservados.</p>
+		<p>
+			Sitio web por <a class="pie-credito" href="https://contrachaos.net" target="_blank" rel="noopener">ContraChaos Solutions</a>
+		</p>
 	</div>
 </footer>
 
@@ -91,6 +94,16 @@
 	.pie-copy {
 		border-top: 1px solid var(--borde);
 		padding: 1.25rem 1.5rem;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+	}
+
+	.pie-credito {
+		color: inherit;
+		text-decoration: underline;
+		text-underline-offset: 2px;
 	}
 
 	.pie-copy p {
